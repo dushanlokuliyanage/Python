@@ -8,3 +8,4 @@ elif marks < 55:
 elif marks < 75:
     print("Very Good")
     print("Garde: A")
+print("Thanks")
