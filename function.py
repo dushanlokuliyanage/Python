@@ -35,7 +35,7 @@ def fibonachi(n):
 result = fibonachi(5)
 print(result)
 
-# Local Scope
+# Local Scope - In simply u only can access in the function
 def total(n1, n2):
     tot = n1 + n2
     return tot
