@@ -32,3 +32,10 @@ for row in metrix:
     for element in row:
         total += element
         print(total)
+
+
+studentsId = [1,2,3,4,5,7,8,9]
+
+for marks in studentsId:
+    print("Thus is student marks: ", marks)
+    
