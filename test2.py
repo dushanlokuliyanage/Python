@@ -8,9 +8,24 @@
 #         break
 
 
-import datetime
+# import datetime
 
-x = datetime.datetime.now()
+# x = datetime.datetime.now()
 
-print(x.year)
-print(x.strftime("%A"))
+# print(x.year)
+# print(x.strftime("%A"))
+
+# price = int(input("Enter first Num: "))
+# tax =  int(input("Enter secound Num: "))
+
+# tat = f"The price is { (price * tax)} dollars"
+# print(tat)
+
+
+i = 0 
+while(i<10):
+  
+    print(i)
+    i = i+1
+    break
+

@@ -9,11 +9,12 @@ elif operator == "-":
 elif operator == "/":
     result = num1 / num2
 elif operator == "^":
-    result = num1 ^ num2
+    result = num1**num2
 elif operator == "%":
     result = num1 % num2
-else :
+else:
     print("Invalid Operator")
+    result = None
 
-print("Result: ", result)
-
+if result is not None:
+    print("Result: ", result)
